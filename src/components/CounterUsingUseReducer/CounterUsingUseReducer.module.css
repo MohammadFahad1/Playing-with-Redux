@@ -1,0 +1,9 @@
+* {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 7px;
+    background-color: chartreuse;
+}

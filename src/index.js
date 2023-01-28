@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Counter from './Contexts/Counter';
+import { RouterProvider } from 'react-router-dom';
+import router from './Routes/Routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Counter>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <RouterProvider router={router}>
+      <React.StrictMode>
+      </React.StrictMode>
+    </RouterProvider>
   </Counter>
 );
 

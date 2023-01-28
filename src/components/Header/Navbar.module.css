@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    padding: 6px;
+    background-color: aqua;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 8px;
+}

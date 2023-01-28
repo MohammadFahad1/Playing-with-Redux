@@ -8,7 +8,7 @@ const SingleForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        console.log(data);
+        alert("Welcome: " + data.name + "\nEmail: " + data.email)
     }
 
     // Change Handler
